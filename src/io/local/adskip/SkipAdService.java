@@ -21,7 +21,7 @@ import java.util.Set;
 import java.util.regex.Pattern;
 
 /**
- * 核心无障碍服务（v0.0.4 深度穿透 + 开屏守护巡检优化版）。
+ * 核心无障碍服务（v0.0.5 深度穿透 + 开屏守护巡检优化版）。
  *
  * 核心优化：
  * 1. 【开屏冲刺守护巡检】：新应用打开前 2.5 秒内，以阶梯间隔主动巡检，
@@ -95,7 +95,7 @@ public class SkipAdService extends AccessibilityService {
     @Override
     protected void onServiceConnected() {
         super.onServiceConnected();
-        Log.i(TAG, "跳跳助手 (0.0.4) 极速守护模式已就绪");
+        Log.i(TAG, "跳跳助手 (0.0.5) 极速守护模式已就绪");
     }
 
     @Override
