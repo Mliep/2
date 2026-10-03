@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">跳跳助手</string>
+    <string name="accessibility_label">跳跳助手（自动跳过广告）</string>
+    <string name="accessibility_desc">自动点击开屏广告的“跳过”按钮。所有处理都在本机完成，不联网、不收集任何数据。</string>
+    <string name="tagline">自动跳过开屏广告 · 纯本地运行 · 不联网</string>
+    <string name="status_on">✓ 服务运行中</string>
+    <string name="status_on_desc">检测到开屏广告时会自动帮你点击“跳过”。如果手机清理了后台，请回到本页重新开启。</string>
+    <string name="status_off">服务未开启</string>
+    <string name="status_off_desc">无障碍服务是本应用唯一的开关，开启后即可自动跳过广告。</string>
+    <string name="btn_open">去开启无障碍服务</string>
+    <string name="btn_settings">前往无障碍设置</string>
+    <string name="usage_title">使用说明</string>
+    <string name="usage_body">1. 点击上方按钮，在无障碍应用列表中找到「跳跳助手」并开启。\n\n2. Android 13 及以上若提示「受限设置」，请到：系统设置 → 应用 → 跳跳助手 → 右上角菜单 → 允许受限设置。\n\n3. 小米 / 华为 / OPPO 等手机请在本应用的设置里允许「自启动」并加锁后台，否则服务可能被系统清理。\n\n4. 本应用不会联网，不申请任何危险权限，可随时在无障碍设置中关闭。</string>
+    <string name="footer">原理：通过 Android 无障碍服务监听窗口，匹配“跳过”文案并模拟点击。仅调用系统无障碍 API。</string>
+</resources>

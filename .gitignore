@@ -1,0 +1,17 @@
+# 构建与中间产物
+build/
+build-v34/
+*.idsig
+
+# 调试临时文件与截图
+screen*.png
+installed-on-phone.apk
+AdSkip-api34.apk
+*.log
+
+# 编辑器与系统文件
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
